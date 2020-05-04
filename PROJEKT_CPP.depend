@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1588167067 source:c:\users\paulina\desktop\cpp\projekt_cpp\main.cpp
+
+1588167105 source:c:\users\paulina\desktop\cpp\projekt_cpp\src\postac.cpp
+	"postac.h"
+
+1588170356 c:\users\paulina\desktop\cpp\projekt_cpp\include\postac.h
+
+1588167710 source:c:\users\paulina\desktop\cpp\projekt_cpp\src\przedmiot.cpp
+	"przedmiot.h"
+
+1588170265 c:\users\paulina\desktop\cpp\projekt_cpp\include\przedmiot.h
+
