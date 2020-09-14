@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -30,7 +32,22 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add directory="../../../Documents/SFML-2.5.1/include" />
 		</Compiler>
+		<Linker>
+			<Add directory="../../../Documents/SFML-2.5.1/lib" />
+		</Linker>
+		<Unit filename="include/bron.h" />
+		<Unit filename="include/jedzenie.h" />
+		<Unit filename="include/postac.h" />
+		<Unit filename="include/przedmiot.h" />
+		<Unit filename="include/swiat.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/bron.cpp" />
+		<Unit filename="src/jedzenie.cpp" />
+		<Unit filename="src/postac.cpp" />
+		<Unit filename="src/przedmiot.cpp" />
+		<Unit filename="src/swiat.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

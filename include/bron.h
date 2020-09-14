@@ -11,7 +11,7 @@ class bron
         int trwalosc;
         int ilosc_w_plecaczku;
         int ochrona;
-        int zmiana;
+
     protected:
 
     private:
