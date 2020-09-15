@@ -125,15 +125,6 @@ private:
         stan.texture = &tekstura;
         centrum.draw(wektor, stan);
     }
-public:/*if (sf::Mouse::VerticalWheel>0)
-                widok.zoom(0.25);
-            if (sf::Mouse::VerticalWheel<0)
-                widok.zoom(1.25);
-            if (wydarzenie.type==sf::Event::Resized)
-            {
-                sf::FloatRect  widoczne_pole(0,0, wydarzenie.size.width,wydarzenie.size.height);
-                okno.setView(sf::View(widoczne_pole));
-            }
-*/
+public:
 };
 #endif // SWIAT_H

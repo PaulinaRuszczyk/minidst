@@ -13,17 +13,13 @@ private:
         void wyciecie_ramki()
         {
             this->ramka[0]=sf::Vector2i(0,0);
-            this->ramka[1]=sf::Vector2i(0,1*this->wielkosc_y);
-            this->ramka[2]=sf::Vector2i(0,2*this->wielkosc_y);
-            this->ramka[3]=sf::Vector2i(0,3*this->wielkosc_y);
+            this->ramka[1]=sf::Vector2i(1*this->wielkosc_y,0);
+            this->ramka[2]=sf::Vector2i(2*this->wielkosc_y,0);
+            //this->ramka[3]=sf::Vector2i(3*this->wielkosc_y,0);
         }
     int predkosc;
 
 public:
-        postac()
-        {
-            this->wyciecie_ramki();
-        }
         postac(std::string nazwa_pliku, int x, int y, sf::Vector2f rozmiar)
         {
             this->setSize(rozmiar);
@@ -40,7 +36,8 @@ public:
             sf::Vector2f ruch(0,0);
             if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
             {
-               // ruch.x -=predkosc*deltaTime;
+               this->ramka[0]=sf::Vector2i(0,0);
+
 
             }
             if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))

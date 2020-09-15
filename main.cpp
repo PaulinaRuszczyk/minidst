@@ -15,7 +15,7 @@ int main()
     sf::RenderWindow w(sf::VideoMode(1000, 800),"HI");
     w.setActive(true);
     w.setFramerateLimit(100);
-    postac kolko("Wendy_image.png",10,10,sf::Vector2f(50,50));
+    postac kolko("Wendy_image.png",100,100,sf::Vector2f(50,50));
     sf::View widok(sf::Vector2f(500,500),sf::Vector2f(1000,1000));
     int macierz[] =
     {
@@ -34,8 +34,9 @@ int main()
     while(w.isOpen())
     {
         w.clear();
+        w.draw(kolko);
         w.draw((stworzony_swiat));
-        kolko.pojawienie(w);
+        //kolko.pojawienie(w);
         //w.draw(kolo);
         w.display();
         sf::Event e;
@@ -53,23 +54,23 @@ int main()
                     {
                     case (sf::Keyboard::A):
                     {
-                        if(widok.getCenter().x<1500)
-                        widok.move(5,0);
+                        if(widok.getCenter().x>500)
+                        widok.move(-5,0);
                         break;
                     }
                     case sf::Keyboard::Escape:
                         w.close();
                         break;
                     case (sf::Keyboard::D):
-                         if(widok.getCenter().x>500)
-                        widok.move(-5,0);
+                         if(widok.getCenter().x<1500)
+                        widok.move(5,0);
                         break;
                     case (sf::Keyboard::S):
-                        if(widok.getCenter().x<1500)
+                        if(widok.getCenter().y<1500)
                             widok.move(0,5);
                         break;
                     case (sf::Keyboard::W):
-                        if(widok.getCenter().x>500)
+                        if(widok.getCenter().y>500)
                             widok.move(0,-5);
                         break;
                     case (sf::Keyboard::Q):
