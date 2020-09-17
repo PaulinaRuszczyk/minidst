@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1600130409 source:c:\users\paulina\desktop\cpp\projekt_cpp\main.cpp
+1600300708 source:c:\users\paulina\desktop\cpp\projekt_cpp\main.cpp
 	"bron.h"
 	"jedzenie.h"
 	"postac.h"
@@ -15,7 +15,7 @@
 	<SFML/Graphics.hpp>
 	<SFML/System.hpp>
 
-1600130339 c:\users\paulina\desktop\cpp\projekt_cpp\include\postac.h
+1600300557 c:\users\paulina\desktop\cpp\projekt_cpp\include\postac.h
 	<SFML/Window.hpp>
 	<SFML/Graphics.hpp>
 

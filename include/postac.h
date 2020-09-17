@@ -37,8 +37,6 @@ public:
             if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
             {
                this->ramka[0]=sf::Vector2i(0,0);
-
-
             }
             if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))
             {

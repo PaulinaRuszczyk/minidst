@@ -15,7 +15,7 @@ int main()
     sf::RenderWindow w(sf::VideoMode(1000, 800),"HI");
     w.setActive(true);
     w.setFramerateLimit(100);
-    postac kolko("Wendy_image.png",100,100,sf::Vector2f(50,50));
+    //postac kolko;
     sf::View widok(sf::Vector2f(500,500),sf::Vector2f(1000,1000));
     int macierz[] =
     {
@@ -34,8 +34,9 @@ int main()
     while(w.isOpen())
     {
         w.clear();
-        w.draw(kolko);
+        //w.draw(kolko);
         w.draw((stworzony_swiat));
+        postac kolko("Wendy_image.png",100,100,sf::Vector2f(50,50));
         //kolko.pojawienie(w);
         //w.draw(kolo);
         w.display();
