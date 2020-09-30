@@ -2,7 +2,7 @@
 #define POSTAC_H
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
-
+#include <iostream>
 class postac : public sf::RectangleShape
 {
 private:
@@ -18,18 +18,25 @@ private:
             //this->ramka[3]=sf::Vector2i(3*this->wielkosc_y,0);
         }
     int predkosc;
-
+    sf::Sprite bohater;
 public:
-        postac(std::string nazwa_pliku, int x, int y, sf::Vector2f rozmiar)
+        postac(std::string nazwa_pliku, int x, int y, sf::Vector2f rozmiar, sf::RenderWindow &okno)
         {
-            this->setSize(rozmiar);
-            this->wielkosc_x=x;
-            this->wielkosc_y=y;
-            sf::Texture *tex = new sf::Texture;
+            //this->setSize(rozmiar);
+            bohater.setScale(x,y);
+            //this->wielkosc_x=x;
+            bohater.setPosition(sf::Vector2f(10,10));
+            //this->wielkosc_y=y;
+            sf::Texture tex;
             this->wyciecie_ramki();
-            tex->loadFromFile(nazwa_pliku);
-            this->setTexture(tex, true);
+            if(!tex.loadFromFile(nazwa_pliku))
+               std::cout<<"problem";
+
+            //this->setTexture(tex, true);
+            bohater.setTexture(tex);
+            okno.draw(bohater);
             this->aktualizuj();
+
         }
         void aktualizuj()
         {

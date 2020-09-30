@@ -36,9 +36,10 @@ int main()
         w.clear();
         //w.draw(kolko);
         w.draw((stworzony_swiat));
-        postac kolko("Wendy_image.png",100,100,sf::Vector2f(50,50));
+        postac kolko("wendy.png",100,100,sf::Vector2f(50,50),w);
         //kolko.pojawienie(w);
         //w.draw(kolo);
+        w.draw(kolko);
         w.display();
         sf::Event e;
         w.setView(widok);
