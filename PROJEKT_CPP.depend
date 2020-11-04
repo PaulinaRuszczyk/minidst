@@ -15,9 +15,12 @@
 	<SFML/Graphics.hpp>
 	<SFML/System.hpp>
 
-1601135028 c:\users\paulina\desktop\cpp\projekt_cpp\include\postac.h
+1601901215 c:\users\paulina\desktop\cpp\projekt_cpp\include\postac.h
 	<SFML/Window.hpp>
 	<SFML/Graphics.hpp>
+	<SFML/Network.hpp>
+	<SFML/Audio.hpp>
+	<SFML/Main.hpp>
 	<iostream>
 
 1592438223 source:c:\users\paulina\desktop\cpp\projekt_cpp\src\przedmiot.cpp

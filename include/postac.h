@@ -2,16 +2,27 @@
 #define POSTAC_H
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
+#include <SFML/Network.hpp>
+#include <SFML/Audio.hpp>
+#include <SFML/Main.hpp>
 #include <iostream>
 class postac : public sf::RectangleShape
 {
 private:
+    sf::Texture tekstura;
     sf::Vector2i ramka[4];
         void ktora_ramka();
         int wielkosc_x;
         int wielkosc_y;
+        sf::RectangleShape rec;
+        sf::Vector2f wektorek;
+
         void wyciecie_ramki()
         {
+            this->wektorek.x=50.0;
+            this->wektorek.y=50;
+            this->rec.setSize(wektorek);
+            this->tekstura.loadFromFile("wendy.png",rec);
             this->ramka[0]=sf::Vector2i(0,0);
             this->ramka[1]=sf::Vector2i(1*this->wielkosc_y,0);
             this->ramka[2]=sf::Vector2i(2*this->wielkosc_y,0);
