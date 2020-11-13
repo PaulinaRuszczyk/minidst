@@ -9,10 +9,10 @@
     //ctor
 }
 */
-postac::~postac()
+/*postac::~postac()
 {
     //dtor
-}
+}*/
 void pojawienie(sf::RenderWindow& w)
 {
     sf::CircleShape kolo;

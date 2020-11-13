@@ -1,54 +1,54 @@
 # depslib dependency file v1.0
-1601134891 source:c:\users\paulina\desktop\cpp\projekt_cpp\main.cpp
-	"bron.h"
-	"jedzenie.h"
+1605232382 source:c:\users\paulina\desktop\cpp\projekt_cpp\main.cpp
 	"postac.h"
-	"przedmiot.h"
 	"swiat.h"
 	<iostream>
 	<SFML/Window.hpp>
 	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<SFML/Main.hpp>
 
-1599259914 source:c:\users\paulina\desktop\cpp\projekt_cpp\src\postac.cpp
+1599252714 source:c:\users\paulina\desktop\cpp\projekt_cpp\src\postac.cpp
 	"postac.h"
 	<SFML/Window.hpp>
 	<SFML/Graphics.hpp>
 	<SFML/System.hpp>
 
-1601901215 c:\users\paulina\desktop\cpp\projekt_cpp\include\postac.h
+1605232380 c:\users\paulina\desktop\cpp\projekt_cpp\include\postac.h
 	<SFML/Window.hpp>
 	<SFML/Graphics.hpp>
 	<SFML/Network.hpp>
 	<SFML/Audio.hpp>
 	<SFML/Main.hpp>
 	<iostream>
+	<string>
 
-1592438223 source:c:\users\paulina\desktop\cpp\projekt_cpp\src\przedmiot.cpp
+1592431023 source:c:\users\paulina\desktop\cpp\projekt_cpp\src\przedmiot.cpp
 	"przedmiot.h"
 	"swiat.h"
 
-1588638205 c:\users\paulina\desktop\cpp\projekt_cpp\include\przedmiot.h
+1588631005 c:\users\paulina\desktop\cpp\projekt_cpp\include\przedmiot.h
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
 	<vector>
 	<iostream>
 
-1588170757 source:c:\users\paulina\desktop\cpp\projekt_cpp\src\bron.cpp
+1588163557 source:c:\users\paulina\desktop\cpp\projekt_cpp\src\bron.cpp
 	"bron.h"
 
-1588635708 c:\users\paulina\desktop\cpp\projekt_cpp\include\bron.h
+1588628508 c:\users\paulina\desktop\cpp\projekt_cpp\include\bron.h
 
-1588170574 source:c:\users\paulina\desktop\cpp\projekt_cpp\src\jedzenie.cpp
+1588163374 source:c:\users\paulina\desktop\cpp\projekt_cpp\src\jedzenie.cpp
 	"jedzenie.h"
 
-1588365202 c:\users\paulina\desktop\cpp\projekt_cpp\include\jedzenie.h
+1588358002 c:\users\paulina\desktop\cpp\projekt_cpp\include\jedzenie.h
 
-1600034157 source:c:\users\paulina\desktop\cpp\projekt_cpp\src\swiat.cpp
+1600026957 source:c:\users\paulina\desktop\cpp\projekt_cpp\src\swiat.cpp
 	"swiat.h"
 	"przedmiot.h"
 
-1600130551 c:\users\paulina\desktop\cpp\projekt_cpp\include\swiat.h
+1600123351 c:\users\paulina\desktop\cpp\projekt_cpp\include\swiat.h
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
