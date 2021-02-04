@@ -61,6 +61,7 @@
 					<Add option="-O2" />
 					<Add option="-std=c++11" />
 					<Add directory="../../../../../sfml/SFML-2.5.1/include" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -107,14 +108,18 @@
 		</Linker>
 		<Unit filename="include/bron.h" />
 		<Unit filename="include/jedzenie.h" />
+		<Unit filename="include/obiekty.h" />
+		<Unit filename="include/plecak.h" />
 		<Unit filename="include/postac.h" />
-		<Unit filename="include/przedmiot.h" />
+		<Unit filename="include/przeciwnik.h" />
 		<Unit filename="include/swiat.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/bron.cpp" />
 		<Unit filename="src/jedzenie.cpp" />
+		<Unit filename="src/obiekty.cpp" />
+		<Unit filename="src/plecak.cpp" />
 		<Unit filename="src/postac.cpp" />
-		<Unit filename="src/przedmiot.cpp" />
+		<Unit filename="src/przeciwnik.cpp" />
 		<Unit filename="src/swiat.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
